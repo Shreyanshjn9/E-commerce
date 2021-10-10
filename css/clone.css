@@ -1,0 +1,124 @@
+.header {
+    overflow: hidden;
+    background-color: #141310;
+    padding: 20px 10px;
+  }
+  
+  .header p {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header p.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .input{
+    top:30px;
+    right: 300px;
+    position: absolute;
+    width:50%;
+  }
+  
+  
+  div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  .sign{
+    top:17px;
+    right: 150px;
+    position: absolute;
+  }
+  
+  .cart{
+    top:16px;
+    right: 70px;
+    position: absolute;
+  }
+  
+  
+  footer{
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    }
+    .main-content{
+        display: flex;
+    
+    }
+    
+    .main-content .box{
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+    .box h2{
+        font-size: 1.125rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .box .content{
+        margin: 20px 0 0 0;
+    }
+    
+    .left .content .social{
+        margin: 20px 0 0 0;
+    }
+    .left .content .social a{
+        padding: 0 2px;
+    }
+    .left .content .social a span{
+        height: 40px;
+        width: 40px;
+        background: #1a1a1a;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .container{
+        text-align: center;
+        margin-top: 200px;
+        padding: 50px;
+    }
+    .input-group input-group-lg{
+        width: 30%;
+    }
+    .check{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .in{
+        margin-bottom: 10px;
+    }
